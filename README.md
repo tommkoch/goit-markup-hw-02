@@ -1,1 +1,2 @@
-# goit-markup-hw-02
+# repozytorium_goit
+makeing page in CSS+HTML
