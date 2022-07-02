@@ -3,58 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body class="body">
     <header>
-      <a href="#"><b>WebStudio</b></a>
-      <nav>
-        <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+      <!--NAWIGACJA-->
+      <a class="logo" href="index.html"
+        >Web<span class="logo-span">Studio</span></a
+      >
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li><a class="nav-agency" href="#">Agencja</a></li>
+          <li><a class="nav-portfolio" href="#">Portfolio</a></li>
+          <li><a class="nav-contact" href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+      <ul class="header-contact">
+        <li>
+          <a class="header-mail" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="header-phone" href="tel:+48111111111">+48 111 111 111</a>
+        </li>
       </ul>
     </header>
     <main>
-      <!--HEADER-->
-      <section>
+      <!--GŁÓWNY TEKST-->
+      <article class="article">
         <div>
-          <h1>EFEKTYWNE ROZWIĄZANIA<br />DLA TWOJEGO BIZNESU</h1>
-          <button type="button">Zamów usługę</button>
+          <h1 class="h1">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button class="button-order" type="button">Zamów usługę</button>
         </div>
-      </section>
+      </article>
       <!--NASZE ATUTY-->
-      <section>
+      <section class="section1">
         <div>
           <ul>
             <li>
-              <h3>LOREM IPSUM</h3>
-              <p>
+              <h3 class="section1-title">LOREM IPSUM</h3>
+              <p class="section1-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <h3>LOREM IPSUM</h3>
-              <p>
+              <h3 class="section1-title">LOREM IPSUM</h3>
+              <p class="section1-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <h3>LOREM IPSUM</h3>
-              <p>
+              <h3 class="section1-title">LOREM IPSUM</h3>
+              <p class="section1-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
             </li>
             <li>
-              <h3>LOREM IPSUM</h3>
-              <p>
+              <h3 class="section1-title">LOREM IPSUM</h3>
+              <p class="section1-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
                 arcu sem. Sed non sodales dui. Interdum et malesuada
               </p>
@@ -63,9 +79,9 @@
         </div>
       </section>
       <!--CZYM SIĘ ZAJMUJEMY-->
-      <section>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
+      <section class="section2">
+        <h2 class="section2-title">Czym się zajmujemy</h2>
+        <ul class="section2-images">
           <li>
             <img
               src="images/czym_sie_zajmujemy/img1.jpg"
@@ -93,9 +109,9 @@
         </ul>
       </section>
       <!--NASZ ZESPÓŁ-->
-      <section>
-        <h2>Nasz zespół</h2>
-        <ul>
+      <section class="section3">
+        <h2 class="section3-title">Nasz zespół</h2>
+        <ul class="section3-images">
           <li>
             <img
               src="images/nasz_zespol/per1_john_doe.jpg"
@@ -103,8 +119,8 @@
               width="270"
               height="260"
             />
-            <h3>John Doe</h3>
-            Product Designer
+            <h3 class="section3-signature-name">John Doe</h3>
+            <p class="section3-signature-name2">Product Designer</p>
           </li>
           <li>
             <img
@@ -113,8 +129,8 @@
               width="270"
               height="260"
             />
-            <h3>John Doe</h3>
-            Product Designer
+            <h3 class="section3-signature-name">John Doe</h3>
+            <p class="section3-signature-name2">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -123,8 +139,8 @@
               width="270"
               height="260"
             />
-            <h3>John Doe</h3>
-            Product Designer
+            <h3 class="section3-signature-name">John Doe</h3>
+            <p class="section3-signature-name2">Marketing</p>
           </li>
           <li>
             <img
@@ -133,23 +149,34 @@
               width="270"
               height="260"
             />
-            <h3>John Doe</h3>
-            Product Designer
+            <h3 class="section3-signature-name">John Doe</h3>
+            <p class="section3-signature-name2">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="#"><b>WebStudio</b></a>
-      <address>
-        <ul>
+    <footer class="footer">
+      <a class="logo2" href="index.html"
+        >Web<span class="logo-span2">Studio</span></a
+      >
+      <address class="adress">
+        <ul class="adress-list">
           <li>
-            <a href="https://goo.gl/maps/h7nx3QRHmRyv2Yrz5" target="_blank"
+            <a
+              class="localization"
+              href="https://goo.gl/maps/h7nx3QRHmRyv2Yrz5"
+              target="_blank"
               >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li>
+            <a class="footer-mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="footer-phone" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
         </ul>
       </address>
     </footer>
