@@ -15,7 +15,8 @@
 .header-phone:hover,
 .localization:hover,
 .footer-mail:hover,
-.footer-phone:hover {
+.footer-phone:hover,
+.nav-buttons:hover {
   color: var(--buttons-color);
 }
 .nav-agency:focus,
@@ -26,7 +27,8 @@
 .header-phone:focus,
 .localization:focus,
 .footer-mail:focus,
-.footer-phone:focus {
+.footer-phone:focus,
+.nav-buttons:focus {
   color: red;
 }
 
@@ -124,8 +126,24 @@
   cursor: pointer;
 }
 
+.nav-buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 121px;
+  height: 38px;
+  background-color: var(--background-color2);
+  border: none;
+  cursor: pointer;
+}
+
 /* SECTION 1 "LOREM" */
 
+.section1-list {
+  list-style: none;
+}
 .section1-title {
   font-weight: 700;
   font-size: 14px;
@@ -235,4 +253,11 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--gray-color);
+}
+
+.nav-projects {
+  list-style: none;
+}
+.project-photos {
+  list-style: none;
 }
